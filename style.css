@@ -1,0 +1,56 @@
+/*Sets background image*/
+body { 
+  background: url(images/Nasa-app-puts-space-station-at-your-fingertips-david-reneke-space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*Font*/
+  font-family: 'Lato', sans-serif;
+}
+/*Links*/
+
+a:hover, a:active, a:visited {
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+
+
+#top{
+	padding-top: 300px;
+}
+
+
+/*Profile*/
+
+.profile_box {
+	padding: 20px;
+	color:white;
+}
+
+.profile_box > p {
+	font-size: 17px;
+}
+
+
+
+/*Social Icons*/
+
+.soc_icon {
+	font-size: 35px;
+	color: white;
+}
+
+
+/*Social Box*/
+.social_box {
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	padding: 10px;
+}
+
