@@ -8,6 +8,14 @@ body {
 
   /*Font*/
   font-family: 'Lato', sans-serif;
+  /*Padding responsive*/
+  padding-top: 300px;
+  }
+  @media (max-width: 500px) {
+    body {
+      padding-top: 0;
+    }
+
 }
 /*Links*/
 
@@ -21,7 +29,7 @@ a:hover, a:active, a:visited {
 
 
 #top{
-	padding-top: 300px;
+	/*padding-top: 300px;*/
 }
 
 
